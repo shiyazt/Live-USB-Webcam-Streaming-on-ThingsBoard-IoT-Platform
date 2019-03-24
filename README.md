@@ -1,7 +1,7 @@
 # Live-USB-Webcam-Streaming-on-ThingsBoard-IoT-Platform
 Live USB Webcam Streaming on ThingsBoard IoT Platform
 
-[INFO] This program will stream your USB Webcam to your Thingsboard instance and the Camera also detects the human faces.
+This program will stream your USB Webcam to your Thingsboard instance and the Camera also detects the human faces.
 
 **Installation**
 ================
@@ -17,7 +17,7 @@ pip install flask
 ![alt text](https://github.com/shiyazt/Live-USB-Webcam-Streaming-on-ThingsBoard-IoT-Platform/blob/master/Screenshots/4.png)
 After importing the json file just change the ip according to your program.
 
-**Run Video Streamer Python Program **
+**Run Video Streamer Python Program**
 ```
 python run Video_streamer.py
 
@@ -32,3 +32,7 @@ Face Detection :
 ![alt text](https://github.com/shiyazt/Live-USB-Webcam-Streaming-on-ThingsBoard-IoT-Platform/blob/master/Screenshots/2.png)
 
 ![alt text](https://github.com/shiyazt/Live-USB-Webcam-Streaming-on-ThingsBoard-IoT-Platform/blob/master/Screenshots/3.png)
+
+Reference:
+----------
+https://blog.miguelgrinberg.com/post/video-streaming-with-flask
